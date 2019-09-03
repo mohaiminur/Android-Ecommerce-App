@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404040"
+    android:orientation="vertical"
+    tools:context="com.example.user.salesapp.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/login_mobile"
+        android:drawableRight="@drawable/user"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/login_password"
+        android:drawableRight="@drawable/pasword"
+        android:layout_margin="20dp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/login_btn"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"
+        android:background="#0055dd"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/login_signup"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:gravity="center"
+        android:background="#0055dd"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        />
+</LinearLayout>
